@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Prompt4u App Brand Icon (All elements strictly within 66dp safe zone: X/Y 21 to 87) -->
+
+    <!-- Outer Squircle Plate with Soft Glow -->
+    <path
+        android:pathData="M40,24 L68,24 A14,14 0 0 1 82,38 L82,70 A14,14 0 0 1 68,84 L40,84 A14,14 0 0 1 26,70 L26,38 A14,14 0 0 1 40,24 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#50A855F7">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="24"
+                android:endX="82"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2A6366F1" />
+                <item android:offset="1.0" android:color="#35EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized 'P' & '4' Union Geometry with Vibrant Gradient -->
+    <!-- Vertical stem of P & 4 -->
+    <path
+        android:pathData="M35,32 L44,32 C45.1,32 46,32.9 46,34 L46,74 C46,75.1 45.1,76 44,76 L35,76 C33.9,76 33,75.1 33,74 L33,34 C33,32.9 33.9,32 35,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="33"
+                android:startY="32"
+                android:endX="46"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Loop of 'P' -->
+    <path
+        android:pathData="M44,32 L60,32 C67.2,32 73,37.8 73,45 C73,52.2 67.2,58 60,58 L44,58 Z M46,40 L46,50 L59,50 C61.8,50 64,47.8 64,45 C64,42.2 61.8,40 59,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="32"
+                android:endX="73"
+                android:endY="58"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dynamic '4' Diagonal & Crossbar -->
+    <path
+        android:pathData="M52,54 L69,54 C70.1,54 71,54.9 71,56 L71,60 C71,61.1 70.1,62 69,62 L63,62 L63,74 C63,75.1 62.1,76 61,76 L55,76 C53.9,76 53,75.1 53,74 L53,62 L52,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="52"
+                android:startY="54"
+                android:endX="71"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F43F5E" />
+                <item android:offset="1.0" android:color="#FB7185" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- AI Starburst Sparkle at top-right (Prompt Innovation) -->
+    <path
+        android:pathData="M76,23 L77.5,28 L82.5,29.5 L77.5,31 L76,36 L74.5,31 L69.5,29.5 L74.5,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="69.5"
+                android:startY="23"
+                android:endX="82.5"
+                android:endY="36"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FBBF24" />
+                <item android:offset="1.0" android:color="#F43F5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Small Secondary AI Spark (Bottom left) -->
+    <path
+        android:pathData="M27,65 L28,68 L31,69 L28,70 L27,73 L26,70 L23,69 L26,68 Z"
+        android:fillColor="#38BDF8" />
+</vector>

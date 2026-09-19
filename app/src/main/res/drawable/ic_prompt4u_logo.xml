@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Rounded Background Card -->
+    <path
+        android:pathData="M8,4 L40,4 A6,6 0 0 1 46,10 L46,38 A6,6 0 0 1 40,44 L8,44 A6,6 0 0 1 2,38 L2,10 A6,6 0 0 1 8,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="2"
+                android:startY="4"
+                android:endX="46"
+                android:endY="44"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4F46E5" />
+                <item android:offset="0.5" android:color="#7C3AED" />
+                <item android:offset="1.0" android:color="#DB2777" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- P Stem -->
+    <path
+        android:pathData="M14,12 L19,12 L19,36 L14,36 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- P Loop -->
+    <path
+        android:pathData="M19,12 L28,12 C32,12 35,15 35,19 C35,23 32,26 28,26 L19,26 Z M19,16 L19,22 L27,22 C28.6,22 30,20.6 30,19 C30,17.4 28.6,16 27,16 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Number 4 Accent -->
+    <path
+        android:pathData="M24,24 L33,24 L33,28 L29,28 L29,36 L25,36 L25,28 L24,28 Z"
+        android:fillColor="#FDE047" />
+
+    <!-- Sparkle Star -->
+    <path
+        android:pathData="M37,8 L38,11 L41,12 L38,13 L37,16 L36,13 L33,12 L36,11 Z"
+        android:fillColor="#FEF08A" />
+</vector>

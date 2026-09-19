@@ -1,0 +1,6 @@
+{
+  "name": "Prompt4u",
+  "description": "Discover curated AI image prompts, publish and view live prompts for all users, create AI art with Gemini, and reverse-engineer prompts from any image.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

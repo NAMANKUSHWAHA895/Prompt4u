@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep futuristic background with diagonal brand gradient -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B0F19" />
+                <item android:offset="0.4" android:color="#1A103C" />
+                <item android:offset="0.8" android:color="#2E1065" />
+                <item android:offset="1.0" android:color="#4C1D95" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Subtle ambient glowing rings for visual depth -->
+    <path
+        android:strokeColor="#1A818CF8"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,54 m -42,0 a 42,42 0 1,1 84,0 a 42,42 0 1,1 -84,0" />
+    <path
+        android:strokeColor="#20C084FC"
+        android:strokeWidth="1.0"
+        android:fillColor="#00000000"
+        android:pathData="M 54,54 m -28,0 a 28,28 0 1,1 56,0 a 28,28 0 1,1 -56,0" />
+</vector>
